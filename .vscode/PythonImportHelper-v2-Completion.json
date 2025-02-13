@@ -1,0 +1,768 @@
+[
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "einops",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "einops",
+        "description": "einops",
+        "detail": "einops",
+        "documentation": {}
+    },
+    {
+        "label": "rearrange",
+        "importPath": "einops",
+        "description": "einops",
+        "isExtraImport": true,
+        "detail": "einops",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "uuid",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "uuid",
+        "description": "uuid",
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "copy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "copy",
+        "description": "copy",
+        "detail": "copy",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
+        "label": "Counter",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
+        "label": "argparse",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "argparse",
+        "description": "argparse",
+        "detail": "argparse",
+        "documentation": {}
+    },
+    {
+        "label": "torch",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torch",
+        "description": "torch",
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "torchaudio",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torchaudio",
+        "description": "torchaudio",
+        "detail": "torchaudio",
+        "documentation": {}
+    },
+    {
+        "label": "Resample",
+        "importPath": "torchaudio.transforms",
+        "description": "torchaudio.transforms",
+        "isExtraImport": true,
+        "detail": "torchaudio.transforms",
+        "documentation": {}
+    },
+    {
+        "label": "soundfile",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "soundfile",
+        "description": "soundfile",
+        "detail": "soundfile",
+        "documentation": {}
+    },
+    {
+        "label": "AutoTokenizer",
+        "importPath": "transformers",
+        "description": "transformers",
+        "isExtraImport": true,
+        "detail": "transformers",
+        "documentation": {}
+    },
+    {
+        "label": "AutoModelForCausalLM",
+        "importPath": "transformers",
+        "description": "transformers",
+        "isExtraImport": true,
+        "detail": "transformers",
+        "documentation": {}
+    },
+    {
+        "label": "LogitsProcessor",
+        "importPath": "transformers",
+        "description": "transformers",
+        "isExtraImport": true,
+        "detail": "transformers",
+        "documentation": {}
+    },
+    {
+        "label": "LogitsProcessorList",
+        "importPath": "transformers",
+        "description": "transformers",
+        "isExtraImport": true,
+        "detail": "transformers",
+        "documentation": {}
+    },
+    {
+        "label": "OmegaConf",
+        "importPath": "omegaconf",
+        "description": "omegaconf",
+        "isExtraImport": true,
+        "detail": "omegaconf",
+        "documentation": {}
+    },
+    {
+        "label": "CodecManipulator",
+        "importPath": "codecmanipulator",
+        "description": "codecmanipulator",
+        "isExtraImport": true,
+        "detail": "codecmanipulator",
+        "documentation": {}
+    },
+    {
+        "label": "_MMSentencePieceTokenizer",
+        "importPath": "mmtokenizer",
+        "description": "mmtokenizer",
+        "isExtraImport": true,
+        "detail": "mmtokenizer",
+        "documentation": {}
+    },
+    {
+        "label": "SoundStream",
+        "importPath": "models.soundstream_hubert_new",
+        "description": "models.soundstream_hubert_new",
+        "isExtraImport": true,
+        "detail": "models.soundstream_hubert_new",
+        "documentation": {}
+    },
+    {
+        "label": "build_codec_model",
+        "importPath": "vocoder",
+        "description": "vocoder",
+        "isExtraImport": true,
+        "detail": "vocoder",
+        "documentation": {}
+    },
+    {
+        "label": "process_audio",
+        "importPath": "vocoder",
+        "description": "vocoder",
+        "isExtraImport": true,
+        "detail": "vocoder",
+        "documentation": {}
+    },
+    {
+        "label": "replace_low_freq_with_energy_matched",
+        "importPath": "post_process_audio",
+        "description": "post_process_audio",
+        "isExtraImport": true,
+        "detail": "post_process_audio",
+        "documentation": {}
+    },
+    {
+        "label": "ABC",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "abstractmethod",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "CodecManipulator",
+        "kind": 6,
+        "importPath": "inference.codecmanipulator",
+        "description": "inference.codecmanipulator",
+        "peekOfCode": "class CodecManipulator(object):\n    r\"\"\"\n    **mm tokenizer v0.1**\n    see codeclm/hf/mm_tokenizer_v0.1_hf/id2vocab.json\n    text tokens: \n        llama tokenizer 0~31999\n    special tokens: \"32000\": \"<EOD>\", \"32001\": \"<SOA>\", \"32002\": \"<EOA>\", \"32003\": \"<SOI>\", \"32004\": \"<EOI>\", \"32005\": \"<SOV>\", \"32006\": \"<EOV>\", \"32007\": \"<s_local>\", \"32008\": \"<e_local>\", \"32009\": \"<s_global>\", \"32010\": \"<e_global>\", \"32011\": \"<semantic>\", \"32012\": \"<acoustic>\", \"32013\": \"<low_level>\", \"32014\": \"<dac_16k>\", \"32015\": \"<dac_44k>\", \"32016\": \"<xcodec>\", \"32017\": \"<placeholder>\", \"32018\": \"<semantic_mert>\", \"32019\": \"<semantic_hubert>\", \"32020\": \"<visual>\", \"32021\": \"<semanticodec>\"\n    mm tokens:\n        dac_16k: 4 codebook, 1024 vocab, 32022 - 36117\n        dac_44k: 9 codebook, 1024 vocab, 36118 - 45333",
+        "detail": "inference.codecmanipulator",
+        "documentation": {}
+    },
+    {
+        "label": "BlockTokenRangeProcessor",
+        "kind": 6,
+        "importPath": "inference.infer",
+        "description": "inference.infer",
+        "peekOfCode": "class BlockTokenRangeProcessor(LogitsProcessor):\n    def __init__(self, start_id, end_id):\n        self.blocked_token_ids = list(range(start_id, end_id))\n    def __call__(self, input_ids, scores):\n        scores[:, self.blocked_token_ids] = -float(\"inf\")\n        return scores\ndef load_audio_mono(filepath, sampling_rate=16000):\n    audio, sr = torchaudio.load(filepath)\n    # Convert to mono\n    audio = torch.mean(audio, dim=0, keepdim=True)",
+        "detail": "inference.infer",
+        "documentation": {}
+    },
+    {
+        "label": "seed_everything",
+        "kind": 2,
+        "importPath": "inference.infer",
+        "description": "inference.infer",
+        "peekOfCode": "def seed_everything(seed=42): \n    random.seed(seed) \n    np.random.seed(seed) \n    torch.manual_seed(seed) \n    torch.cuda.manual_seed_all(seed) \n    torch.backends.cudnn.deterministic = True\n    torch.backends.cudnn.benchmark = False\nseed_everything(args.seed)\n# load tokenizer and model\ndevice = torch.device(f\"cuda:{cuda_idx}\" if torch.cuda.is_available() else \"cpu\")",
+        "detail": "inference.infer",
+        "documentation": {}
+    },
+    {
+        "label": "load_audio_mono",
+        "kind": 2,
+        "importPath": "inference.infer",
+        "description": "inference.infer",
+        "peekOfCode": "def load_audio_mono(filepath, sampling_rate=16000):\n    audio, sr = torchaudio.load(filepath)\n    # Convert to mono\n    audio = torch.mean(audio, dim=0, keepdim=True)\n    # Resample if needed\n    if sr != sampling_rate:\n        resampler = Resample(orig_freq=sr, new_freq=sampling_rate)\n        audio = resampler(audio)\n    return audio\ndef encode_audio(codec_model, audio_prompt, device, target_bw=0.5):",
+        "detail": "inference.infer",
+        "documentation": {}
+    },
+    {
+        "label": "encode_audio",
+        "kind": 2,
+        "importPath": "inference.infer",
+        "description": "inference.infer",
+        "peekOfCode": "def encode_audio(codec_model, audio_prompt, device, target_bw=0.5):\n    if len(audio_prompt.shape) < 3:\n        audio_prompt.unsqueeze_(0)\n    with torch.no_grad():\n        raw_codes = codec_model.encode(audio_prompt.to(device), target_bw=target_bw)\n    raw_codes = raw_codes.transpose(0, 1)\n    raw_codes = raw_codes.cpu().numpy().astype(np.int16)\n    return raw_codes\ndef split_lyrics(lyrics):\n    pattern = r\"\\[(\\w+)\\](.*?)(?=\\[|\\Z)\"",
+        "detail": "inference.infer",
+        "documentation": {}
+    },
+    {
+        "label": "split_lyrics",
+        "kind": 2,
+        "importPath": "inference.infer",
+        "description": "inference.infer",
+        "peekOfCode": "def split_lyrics(lyrics):\n    pattern = r\"\\[(\\w+)\\](.*?)(?=\\[|\\Z)\"\n    segments = re.findall(pattern, lyrics, re.DOTALL)\n    structured_lyrics = [f\"[{seg[0]}]\\n{seg[1].strip()}\\n\\n\" for seg in segments]\n    return structured_lyrics\n# Call the function and print the result\nstage1_output_set = []\n# Tips:\n# genre tags support instrumental，genre，mood，vocal timbr and vocal gender\n# all kinds of tags are needed",
+        "detail": "inference.infer",
+        "documentation": {}
+    },
+    {
+        "label": "stage2_generate",
+        "kind": 2,
+        "importPath": "inference.infer",
+        "description": "inference.infer",
+        "peekOfCode": "def stage2_generate(model, prompt, batch_size=16):\n    codec_ids = codectool.unflatten(prompt, n_quantizer=1)\n    codec_ids = codectool.offset_tok_ids(\n                    codec_ids, \n                    global_offset=codectool.global_offset, \n                    codebook_size=codectool.codebook_size, \n                    num_codebooks=codectool.num_codebooks, \n                ).astype(np.int32)\n    # Prepare prompt_ids based on batch size or single input\n    if batch_size > 1:",
+        "detail": "inference.infer",
+        "documentation": {}
+    },
+    {
+        "label": "stage2_inference",
+        "kind": 2,
+        "importPath": "inference.infer",
+        "description": "inference.infer",
+        "peekOfCode": "def stage2_inference(model, stage1_output_set, stage2_output_dir, batch_size=4):\n    stage2_result = []\n    for i in tqdm(range(len(stage1_output_set))):\n        output_filename = os.path.join(stage2_output_dir, os.path.basename(stage1_output_set[i]))\n        if os.path.exists(output_filename):\n            print(f'{output_filename} stage2 has done.')\n            continue\n        # Load the prompt\n        prompt = np.load(stage1_output_set[i]).astype(np.int32)\n        # Only accept 6s segments",
+        "detail": "inference.infer",
+        "documentation": {}
+    },
+    {
+        "label": "save_audio",
+        "kind": 2,
+        "importPath": "inference.infer",
+        "description": "inference.infer",
+        "peekOfCode": "def save_audio(wav: torch.Tensor, path, sample_rate: int, rescale: bool = False):\n    folder_path = os.path.dirname(path)\n    if not os.path.exists(folder_path):\n        os.makedirs(folder_path)\n    limit = 0.99\n    max_val = wav.abs().max()\n    wav = wav * min(limit / max_val, 1) if rescale else wav.clamp(-limit, limit)\n    torchaudio.save(str(path), wav, sample_rate=sample_rate, encoding='PCM_S', bits_per_sample=16)\n# reconstruct tracks\nrecons_output_dir = os.path.join(args.output_dir, \"recons\")",
+        "detail": "inference.infer",
+        "documentation": {}
+    },
+    {
+        "label": "parser",
+        "kind": 5,
+        "importPath": "inference.infer",
+        "description": "inference.infer",
+        "peekOfCode": "parser = argparse.ArgumentParser()\n# Model Configuration:\nparser.add_argument(\"--stage1_model\", type=str, default=\"m-a-p/YuE-s1-7B-anneal-en-cot\", help=\"The model checkpoint path or identifier for the Stage 1 model.\")\nparser.add_argument(\"--stage2_model\", type=str, default=\"m-a-p/YuE-s2-1B-general\", help=\"The model checkpoint path or identifier for the Stage 2 model.\")\nparser.add_argument(\"--max_new_tokens\", type=int, default=3000, help=\"The maximum number of new tokens to generate in one pass during text generation.\")\nparser.add_argument(\"--repetition_penalty\", type=float, default=1.1, help=\"repetition_penalty ranges from 1.0 to 2.0 (or higher in some cases). It controls the diversity and coherence of the audio tokens generated. The higher the value, the greater the discouragement of repetition. Setting value to 1.0 means no penalty.\")\nparser.add_argument(\"--run_n_segments\", type=int, default=2, help=\"The number of segments to process during the generation.\")\nparser.add_argument(\"--stage2_batch_size\", type=int, default=4, help=\"The batch size used in Stage 2 inference.\")\n# Prompt\nparser.add_argument(\"--genre_txt\", type=str, required=True, help=\"The file path to a text file containing genre tags that describe the musical style or characteristics (e.g., instrumental, genre, mood, vocal timbre, vocal gender). This is used as part of the generation prompt.\")",
+        "detail": "inference.infer",
+        "documentation": {}
+    },
+    {
+        "label": "args",
+        "kind": 5,
+        "importPath": "inference.infer",
+        "description": "inference.infer",
+        "peekOfCode": "args = parser.parse_args()\nif args.use_audio_prompt and not args.audio_prompt_path:\n    raise FileNotFoundError(\"Please offer audio prompt filepath using '--audio_prompt_path', when you enable 'use_audio_prompt'!\")\nif args.use_dual_tracks_prompt and not args.vocal_track_prompt_path and not args.instrumental_track_prompt_path:\n    raise FileNotFoundError(\"Please offer dual tracks prompt filepath using '--vocal_track_prompt_path' and '--inst_decoder_path', when you enable '--use_dual_tracks_prompt'!\")\nstage1_model = args.stage1_model\nstage2_model = args.stage2_model\ncuda_idx = args.cuda_idx\nmax_new_tokens = args.max_new_tokens\nstage1_output_dir = os.path.join(args.output_dir, f\"stage1\")",
+        "detail": "inference.infer",
+        "documentation": {}
+    },
+    {
+        "label": "stage1_model",
+        "kind": 5,
+        "importPath": "inference.infer",
+        "description": "inference.infer",
+        "peekOfCode": "stage1_model = args.stage1_model\nstage2_model = args.stage2_model\ncuda_idx = args.cuda_idx\nmax_new_tokens = args.max_new_tokens\nstage1_output_dir = os.path.join(args.output_dir, f\"stage1\")\nstage2_output_dir = stage1_output_dir.replace('stage1', 'stage2')\nos.makedirs(stage1_output_dir, exist_ok=True)\nos.makedirs(stage2_output_dir, exist_ok=True)\ndef seed_everything(seed=42): \n    random.seed(seed) ",
+        "detail": "inference.infer",
+        "documentation": {}
+    },
+    {
+        "label": "stage2_model",
+        "kind": 5,
+        "importPath": "inference.infer",
+        "description": "inference.infer",
+        "peekOfCode": "stage2_model = args.stage2_model\ncuda_idx = args.cuda_idx\nmax_new_tokens = args.max_new_tokens\nstage1_output_dir = os.path.join(args.output_dir, f\"stage1\")\nstage2_output_dir = stage1_output_dir.replace('stage1', 'stage2')\nos.makedirs(stage1_output_dir, exist_ok=True)\nos.makedirs(stage2_output_dir, exist_ok=True)\ndef seed_everything(seed=42): \n    random.seed(seed) \n    np.random.seed(seed) ",
+        "detail": "inference.infer",
+        "documentation": {}
+    },
+    {
+        "label": "cuda_idx",
+        "kind": 5,
+        "importPath": "inference.infer",
+        "description": "inference.infer",
+        "peekOfCode": "cuda_idx = args.cuda_idx\nmax_new_tokens = args.max_new_tokens\nstage1_output_dir = os.path.join(args.output_dir, f\"stage1\")\nstage2_output_dir = stage1_output_dir.replace('stage1', 'stage2')\nos.makedirs(stage1_output_dir, exist_ok=True)\nos.makedirs(stage2_output_dir, exist_ok=True)\ndef seed_everything(seed=42): \n    random.seed(seed) \n    np.random.seed(seed) \n    torch.manual_seed(seed) ",
+        "detail": "inference.infer",
+        "documentation": {}
+    },
+    {
+        "label": "max_new_tokens",
+        "kind": 5,
+        "importPath": "inference.infer",
+        "description": "inference.infer",
+        "peekOfCode": "max_new_tokens = args.max_new_tokens\nstage1_output_dir = os.path.join(args.output_dir, f\"stage1\")\nstage2_output_dir = stage1_output_dir.replace('stage1', 'stage2')\nos.makedirs(stage1_output_dir, exist_ok=True)\nos.makedirs(stage2_output_dir, exist_ok=True)\ndef seed_everything(seed=42): \n    random.seed(seed) \n    np.random.seed(seed) \n    torch.manual_seed(seed) \n    torch.cuda.manual_seed_all(seed) ",
+        "detail": "inference.infer",
+        "documentation": {}
+    },
+    {
+        "label": "stage1_output_dir",
+        "kind": 5,
+        "importPath": "inference.infer",
+        "description": "inference.infer",
+        "peekOfCode": "stage1_output_dir = os.path.join(args.output_dir, f\"stage1\")\nstage2_output_dir = stage1_output_dir.replace('stage1', 'stage2')\nos.makedirs(stage1_output_dir, exist_ok=True)\nos.makedirs(stage2_output_dir, exist_ok=True)\ndef seed_everything(seed=42): \n    random.seed(seed) \n    np.random.seed(seed) \n    torch.manual_seed(seed) \n    torch.cuda.manual_seed_all(seed) \n    torch.backends.cudnn.deterministic = True",
+        "detail": "inference.infer",
+        "documentation": {}
+    },
+    {
+        "label": "stage2_output_dir",
+        "kind": 5,
+        "importPath": "inference.infer",
+        "description": "inference.infer",
+        "peekOfCode": "stage2_output_dir = stage1_output_dir.replace('stage1', 'stage2')\nos.makedirs(stage1_output_dir, exist_ok=True)\nos.makedirs(stage2_output_dir, exist_ok=True)\ndef seed_everything(seed=42): \n    random.seed(seed) \n    np.random.seed(seed) \n    torch.manual_seed(seed) \n    torch.cuda.manual_seed_all(seed) \n    torch.backends.cudnn.deterministic = True\n    torch.backends.cudnn.benchmark = False",
+        "detail": "inference.infer",
+        "documentation": {}
+    },
+    {
+        "label": "device",
+        "kind": 5,
+        "importPath": "inference.infer",
+        "description": "inference.infer",
+        "peekOfCode": "device = torch.device(f\"cuda:{cuda_idx}\" if torch.cuda.is_available() else \"cpu\")\nmmtokenizer = _MMSentencePieceTokenizer(\"./mm_tokenizer_v0.2_hf/tokenizer.model\")\nmodel = AutoModelForCausalLM.from_pretrained(\n    stage1_model, \n    torch_dtype=torch.bfloat16,\n    attn_implementation=\"flash_attention_2\", # To enable flashattn, you have to install flash-attn\n    # device_map=\"auto\",\n    )\n# to device, if gpu is available\nmodel.to(device)",
+        "detail": "inference.infer",
+        "documentation": {}
+    },
+    {
+        "label": "mmtokenizer",
+        "kind": 5,
+        "importPath": "inference.infer",
+        "description": "inference.infer",
+        "peekOfCode": "mmtokenizer = _MMSentencePieceTokenizer(\"./mm_tokenizer_v0.2_hf/tokenizer.model\")\nmodel = AutoModelForCausalLM.from_pretrained(\n    stage1_model, \n    torch_dtype=torch.bfloat16,\n    attn_implementation=\"flash_attention_2\", # To enable flashattn, you have to install flash-attn\n    # device_map=\"auto\",\n    )\n# to device, if gpu is available\nmodel.to(device)\nmodel.eval()",
+        "detail": "inference.infer",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "inference.infer",
+        "description": "inference.infer",
+        "peekOfCode": "model = AutoModelForCausalLM.from_pretrained(\n    stage1_model, \n    torch_dtype=torch.bfloat16,\n    attn_implementation=\"flash_attention_2\", # To enable flashattn, you have to install flash-attn\n    # device_map=\"auto\",\n    )\n# to device, if gpu is available\nmodel.to(device)\nmodel.eval()\nif torch.__version__ >= \"2.0.0\":",
+        "detail": "inference.infer",
+        "documentation": {}
+    },
+    {
+        "label": "codectool",
+        "kind": 5,
+        "importPath": "inference.infer",
+        "description": "inference.infer",
+        "peekOfCode": "codectool = CodecManipulator(\"xcodec\", 0, 1)\ncodectool_stage2 = CodecManipulator(\"xcodec\", 0, 8)\nmodel_config = OmegaConf.load(args.basic_model_config)\ncodec_model = eval(model_config.generator.name)(**model_config.generator.config).to(device)\nparameter_dict = torch.load(args.resume_path, map_location='cpu', weights_only=False)\ncodec_model.load_state_dict(parameter_dict['codec_model'])\ncodec_model.to(device)\ncodec_model.eval()\nclass BlockTokenRangeProcessor(LogitsProcessor):\n    def __init__(self, start_id, end_id):",
+        "detail": "inference.infer",
+        "documentation": {}
+    },
+    {
+        "label": "codectool_stage2",
+        "kind": 5,
+        "importPath": "inference.infer",
+        "description": "inference.infer",
+        "peekOfCode": "codectool_stage2 = CodecManipulator(\"xcodec\", 0, 8)\nmodel_config = OmegaConf.load(args.basic_model_config)\ncodec_model = eval(model_config.generator.name)(**model_config.generator.config).to(device)\nparameter_dict = torch.load(args.resume_path, map_location='cpu', weights_only=False)\ncodec_model.load_state_dict(parameter_dict['codec_model'])\ncodec_model.to(device)\ncodec_model.eval()\nclass BlockTokenRangeProcessor(LogitsProcessor):\n    def __init__(self, start_id, end_id):\n        self.blocked_token_ids = list(range(start_id, end_id))",
+        "detail": "inference.infer",
+        "documentation": {}
+    },
+    {
+        "label": "model_config",
+        "kind": 5,
+        "importPath": "inference.infer",
+        "description": "inference.infer",
+        "peekOfCode": "model_config = OmegaConf.load(args.basic_model_config)\ncodec_model = eval(model_config.generator.name)(**model_config.generator.config).to(device)\nparameter_dict = torch.load(args.resume_path, map_location='cpu', weights_only=False)\ncodec_model.load_state_dict(parameter_dict['codec_model'])\ncodec_model.to(device)\ncodec_model.eval()\nclass BlockTokenRangeProcessor(LogitsProcessor):\n    def __init__(self, start_id, end_id):\n        self.blocked_token_ids = list(range(start_id, end_id))\n    def __call__(self, input_ids, scores):",
+        "detail": "inference.infer",
+        "documentation": {}
+    },
+    {
+        "label": "codec_model",
+        "kind": 5,
+        "importPath": "inference.infer",
+        "description": "inference.infer",
+        "peekOfCode": "codec_model = eval(model_config.generator.name)(**model_config.generator.config).to(device)\nparameter_dict = torch.load(args.resume_path, map_location='cpu', weights_only=False)\ncodec_model.load_state_dict(parameter_dict['codec_model'])\ncodec_model.to(device)\ncodec_model.eval()\nclass BlockTokenRangeProcessor(LogitsProcessor):\n    def __init__(self, start_id, end_id):\n        self.blocked_token_ids = list(range(start_id, end_id))\n    def __call__(self, input_ids, scores):\n        scores[:, self.blocked_token_ids] = -float(\"inf\")",
+        "detail": "inference.infer",
+        "documentation": {}
+    },
+    {
+        "label": "parameter_dict",
+        "kind": 5,
+        "importPath": "inference.infer",
+        "description": "inference.infer",
+        "peekOfCode": "parameter_dict = torch.load(args.resume_path, map_location='cpu', weights_only=False)\ncodec_model.load_state_dict(parameter_dict['codec_model'])\ncodec_model.to(device)\ncodec_model.eval()\nclass BlockTokenRangeProcessor(LogitsProcessor):\n    def __init__(self, start_id, end_id):\n        self.blocked_token_ids = list(range(start_id, end_id))\n    def __call__(self, input_ids, scores):\n        scores[:, self.blocked_token_ids] = -float(\"inf\")\n        return scores",
+        "detail": "inference.infer",
+        "documentation": {}
+    },
+    {
+        "label": "stage1_output_set",
+        "kind": 5,
+        "importPath": "inference.infer",
+        "description": "inference.infer",
+        "peekOfCode": "stage1_output_set = []\n# Tips:\n# genre tags support instrumental，genre，mood，vocal timbr and vocal gender\n# all kinds of tags are needed\nwith open(args.genre_txt) as f:\n    genres = f.read().strip()\nwith open(args.lyrics_txt) as f:\n    lyrics = split_lyrics(f.read())\n# intruction\nfull_lyrics = \"\\n\".join(lyrics)",
+        "detail": "inference.infer",
+        "documentation": {}
+    },
+    {
+        "label": "full_lyrics",
+        "kind": 5,
+        "importPath": "inference.infer",
+        "description": "inference.infer",
+        "peekOfCode": "full_lyrics = \"\\n\".join(lyrics)\nprompt_texts = [f\"Generate music from the given lyrics segment by segment.\\n[Genre] {genres}\\n{full_lyrics}\"]\nprompt_texts += lyrics\nrandom_id = uuid.uuid4()\noutput_seq = None\n# Here is suggested decoding config\ntop_p = 0.93\ntemperature = 1.0\nrepetition_penalty = args.repetition_penalty\n# special tokens",
+        "detail": "inference.infer",
+        "documentation": {}
+    },
+    {
+        "label": "prompt_texts",
+        "kind": 5,
+        "importPath": "inference.infer",
+        "description": "inference.infer",
+        "peekOfCode": "prompt_texts = [f\"Generate music from the given lyrics segment by segment.\\n[Genre] {genres}\\n{full_lyrics}\"]\nprompt_texts += lyrics\nrandom_id = uuid.uuid4()\noutput_seq = None\n# Here is suggested decoding config\ntop_p = 0.93\ntemperature = 1.0\nrepetition_penalty = args.repetition_penalty\n# special tokens\nstart_of_segment = mmtokenizer.tokenize('[start_of_segment]')",
+        "detail": "inference.infer",
+        "documentation": {}
+    },
+    {
+        "label": "random_id",
+        "kind": 5,
+        "importPath": "inference.infer",
+        "description": "inference.infer",
+        "peekOfCode": "random_id = uuid.uuid4()\noutput_seq = None\n# Here is suggested decoding config\ntop_p = 0.93\ntemperature = 1.0\nrepetition_penalty = args.repetition_penalty\n# special tokens\nstart_of_segment = mmtokenizer.tokenize('[start_of_segment]')\nend_of_segment = mmtokenizer.tokenize('[end_of_segment]')\n# Format text prompt",
+        "detail": "inference.infer",
+        "documentation": {}
+    },
+    {
+        "label": "output_seq",
+        "kind": 5,
+        "importPath": "inference.infer",
+        "description": "inference.infer",
+        "peekOfCode": "output_seq = None\n# Here is suggested decoding config\ntop_p = 0.93\ntemperature = 1.0\nrepetition_penalty = args.repetition_penalty\n# special tokens\nstart_of_segment = mmtokenizer.tokenize('[start_of_segment]')\nend_of_segment = mmtokenizer.tokenize('[end_of_segment]')\n# Format text prompt\nrun_n_segments = min(args.run_n_segments+1, len(lyrics))",
+        "detail": "inference.infer",
+        "documentation": {}
+    },
+    {
+        "label": "top_p",
+        "kind": 5,
+        "importPath": "inference.infer",
+        "description": "inference.infer",
+        "peekOfCode": "top_p = 0.93\ntemperature = 1.0\nrepetition_penalty = args.repetition_penalty\n# special tokens\nstart_of_segment = mmtokenizer.tokenize('[start_of_segment]')\nend_of_segment = mmtokenizer.tokenize('[end_of_segment]')\n# Format text prompt\nrun_n_segments = min(args.run_n_segments+1, len(lyrics))\nfor i, p in enumerate(tqdm(prompt_texts[:run_n_segments], desc=\"Stage1 inference...\")):\n    section_text = p.replace('[start_of_segment]', '').replace('[end_of_segment]', '')",
+        "detail": "inference.infer",
+        "documentation": {}
+    },
+    {
+        "label": "temperature",
+        "kind": 5,
+        "importPath": "inference.infer",
+        "description": "inference.infer",
+        "peekOfCode": "temperature = 1.0\nrepetition_penalty = args.repetition_penalty\n# special tokens\nstart_of_segment = mmtokenizer.tokenize('[start_of_segment]')\nend_of_segment = mmtokenizer.tokenize('[end_of_segment]')\n# Format text prompt\nrun_n_segments = min(args.run_n_segments+1, len(lyrics))\nfor i, p in enumerate(tqdm(prompt_texts[:run_n_segments], desc=\"Stage1 inference...\")):\n    section_text = p.replace('[start_of_segment]', '').replace('[end_of_segment]', '')\n    guidance_scale = 1.5 if i <=1 else 1.2",
+        "detail": "inference.infer",
+        "documentation": {}
+    },
+    {
+        "label": "repetition_penalty",
+        "kind": 5,
+        "importPath": "inference.infer",
+        "description": "inference.infer",
+        "peekOfCode": "repetition_penalty = args.repetition_penalty\n# special tokens\nstart_of_segment = mmtokenizer.tokenize('[start_of_segment]')\nend_of_segment = mmtokenizer.tokenize('[end_of_segment]')\n# Format text prompt\nrun_n_segments = min(args.run_n_segments+1, len(lyrics))\nfor i, p in enumerate(tqdm(prompt_texts[:run_n_segments], desc=\"Stage1 inference...\")):\n    section_text = p.replace('[start_of_segment]', '').replace('[end_of_segment]', '')\n    guidance_scale = 1.5 if i <=1 else 1.2\n    if i==0:",
+        "detail": "inference.infer",
+        "documentation": {}
+    },
+    {
+        "label": "start_of_segment",
+        "kind": 5,
+        "importPath": "inference.infer",
+        "description": "inference.infer",
+        "peekOfCode": "start_of_segment = mmtokenizer.tokenize('[start_of_segment]')\nend_of_segment = mmtokenizer.tokenize('[end_of_segment]')\n# Format text prompt\nrun_n_segments = min(args.run_n_segments+1, len(lyrics))\nfor i, p in enumerate(tqdm(prompt_texts[:run_n_segments], desc=\"Stage1 inference...\")):\n    section_text = p.replace('[start_of_segment]', '').replace('[end_of_segment]', '')\n    guidance_scale = 1.5 if i <=1 else 1.2\n    if i==0:\n        continue\n    if i==1:",
+        "detail": "inference.infer",
+        "documentation": {}
+    },
+    {
+        "label": "end_of_segment",
+        "kind": 5,
+        "importPath": "inference.infer",
+        "description": "inference.infer",
+        "peekOfCode": "end_of_segment = mmtokenizer.tokenize('[end_of_segment]')\n# Format text prompt\nrun_n_segments = min(args.run_n_segments+1, len(lyrics))\nfor i, p in enumerate(tqdm(prompt_texts[:run_n_segments], desc=\"Stage1 inference...\")):\n    section_text = p.replace('[start_of_segment]', '').replace('[end_of_segment]', '')\n    guidance_scale = 1.5 if i <=1 else 1.2\n    if i==0:\n        continue\n    if i==1:\n        if args.use_dual_tracks_prompt or args.use_audio_prompt:",
+        "detail": "inference.infer",
+        "documentation": {}
+    },
+    {
+        "label": "run_n_segments",
+        "kind": 5,
+        "importPath": "inference.infer",
+        "description": "inference.infer",
+        "peekOfCode": "run_n_segments = min(args.run_n_segments+1, len(lyrics))\nfor i, p in enumerate(tqdm(prompt_texts[:run_n_segments], desc=\"Stage1 inference...\")):\n    section_text = p.replace('[start_of_segment]', '').replace('[end_of_segment]', '')\n    guidance_scale = 1.5 if i <=1 else 1.2\n    if i==0:\n        continue\n    if i==1:\n        if args.use_dual_tracks_prompt or args.use_audio_prompt:\n            if args.use_dual_tracks_prompt:\n                vocals_ids = load_audio_mono(args.vocal_track_prompt_path)",
+        "detail": "inference.infer",
+        "documentation": {}
+    },
+    {
+        "label": "ids",
+        "kind": 5,
+        "importPath": "inference.infer",
+        "description": "inference.infer",
+        "peekOfCode": "ids = raw_output[0].cpu().numpy()\nsoa_idx = np.where(ids == mmtokenizer.soa)[0].tolist()\neoa_idx = np.where(ids == mmtokenizer.eoa)[0].tolist()\nif len(soa_idx)!=len(eoa_idx):\n    raise ValueError(f'invalid pairs of soa and eoa, Num of soa: {len(soa_idx)}, Num of eoa: {len(eoa_idx)}')\nvocals = []\ninstrumentals = []\nrange_begin = 1 if args.use_audio_prompt or args.use_dual_tracks_prompt else 0\nfor i in range(range_begin, len(soa_idx)):\n    codec_ids = ids[soa_idx[i]+1:eoa_idx[i]]",
+        "detail": "inference.infer",
+        "documentation": {}
+    },
+    {
+        "label": "soa_idx",
+        "kind": 5,
+        "importPath": "inference.infer",
+        "description": "inference.infer",
+        "peekOfCode": "soa_idx = np.where(ids == mmtokenizer.soa)[0].tolist()\neoa_idx = np.where(ids == mmtokenizer.eoa)[0].tolist()\nif len(soa_idx)!=len(eoa_idx):\n    raise ValueError(f'invalid pairs of soa and eoa, Num of soa: {len(soa_idx)}, Num of eoa: {len(eoa_idx)}')\nvocals = []\ninstrumentals = []\nrange_begin = 1 if args.use_audio_prompt or args.use_dual_tracks_prompt else 0\nfor i in range(range_begin, len(soa_idx)):\n    codec_ids = ids[soa_idx[i]+1:eoa_idx[i]]\n    if codec_ids[0] == 32016:",
+        "detail": "inference.infer",
+        "documentation": {}
+    },
+    {
+        "label": "eoa_idx",
+        "kind": 5,
+        "importPath": "inference.infer",
+        "description": "inference.infer",
+        "peekOfCode": "eoa_idx = np.where(ids == mmtokenizer.eoa)[0].tolist()\nif len(soa_idx)!=len(eoa_idx):\n    raise ValueError(f'invalid pairs of soa and eoa, Num of soa: {len(soa_idx)}, Num of eoa: {len(eoa_idx)}')\nvocals = []\ninstrumentals = []\nrange_begin = 1 if args.use_audio_prompt or args.use_dual_tracks_prompt else 0\nfor i in range(range_begin, len(soa_idx)):\n    codec_ids = ids[soa_idx[i]+1:eoa_idx[i]]\n    if codec_ids[0] == 32016:\n        codec_ids = codec_ids[1:]",
+        "detail": "inference.infer",
+        "documentation": {}
+    },
+    {
+        "label": "vocals",
+        "kind": 5,
+        "importPath": "inference.infer",
+        "description": "inference.infer",
+        "peekOfCode": "vocals = []\ninstrumentals = []\nrange_begin = 1 if args.use_audio_prompt or args.use_dual_tracks_prompt else 0\nfor i in range(range_begin, len(soa_idx)):\n    codec_ids = ids[soa_idx[i]+1:eoa_idx[i]]\n    if codec_ids[0] == 32016:\n        codec_ids = codec_ids[1:]\n    codec_ids = codec_ids[:2 * (codec_ids.shape[0] // 2)]\n    vocals_ids = codectool.ids2npy(rearrange(codec_ids,\"(n b) -> b n\", b=2)[0])\n    vocals.append(vocals_ids)",
+        "detail": "inference.infer",
+        "documentation": {}
+    },
+    {
+        "label": "instrumentals",
+        "kind": 5,
+        "importPath": "inference.infer",
+        "description": "inference.infer",
+        "peekOfCode": "instrumentals = []\nrange_begin = 1 if args.use_audio_prompt or args.use_dual_tracks_prompt else 0\nfor i in range(range_begin, len(soa_idx)):\n    codec_ids = ids[soa_idx[i]+1:eoa_idx[i]]\n    if codec_ids[0] == 32016:\n        codec_ids = codec_ids[1:]\n    codec_ids = codec_ids[:2 * (codec_ids.shape[0] // 2)]\n    vocals_ids = codectool.ids2npy(rearrange(codec_ids,\"(n b) -> b n\", b=2)[0])\n    vocals.append(vocals_ids)\n    instrumentals_ids = codectool.ids2npy(rearrange(codec_ids,\"(n b) -> b n\", b=2)[1])",
+        "detail": "inference.infer",
+        "documentation": {}
+    },
+    {
+        "label": "range_begin",
+        "kind": 5,
+        "importPath": "inference.infer",
+        "description": "inference.infer",
+        "peekOfCode": "range_begin = 1 if args.use_audio_prompt or args.use_dual_tracks_prompt else 0\nfor i in range(range_begin, len(soa_idx)):\n    codec_ids = ids[soa_idx[i]+1:eoa_idx[i]]\n    if codec_ids[0] == 32016:\n        codec_ids = codec_ids[1:]\n    codec_ids = codec_ids[:2 * (codec_ids.shape[0] // 2)]\n    vocals_ids = codectool.ids2npy(rearrange(codec_ids,\"(n b) -> b n\", b=2)[0])\n    vocals.append(vocals_ids)\n    instrumentals_ids = codectool.ids2npy(rearrange(codec_ids,\"(n b) -> b n\", b=2)[1])\n    instrumentals.append(instrumentals_ids)",
+        "detail": "inference.infer",
+        "documentation": {}
+    },
+    {
+        "label": "vocals",
+        "kind": 5,
+        "importPath": "inference.infer",
+        "description": "inference.infer",
+        "peekOfCode": "vocals = np.concatenate(vocals, axis=1)\ninstrumentals = np.concatenate(instrumentals, axis=1)\nvocal_save_path = os.path.join(stage1_output_dir, f\"{genres.replace(' ', '-')}_tp{top_p}_T{temperature}_rp{repetition_penalty}_maxtk{max_new_tokens}_{random_id}_vtrack\".replace('.', '@')+'.npy')\ninst_save_path = os.path.join(stage1_output_dir, f\"{genres.replace(' ', '-')}_tp{top_p}_T{temperature}_rp{repetition_penalty}_maxtk{max_new_tokens}_{random_id}_itrack\".replace('.', '@')+'.npy')\nnp.save(vocal_save_path, vocals)\nnp.save(inst_save_path, instrumentals)\nstage1_output_set.append(vocal_save_path)\nstage1_output_set.append(inst_save_path)\n# offload model\nif not args.disable_offload_model:",
+        "detail": "inference.infer",
+        "documentation": {}
+    },
+    {
+        "label": "instrumentals",
+        "kind": 5,
+        "importPath": "inference.infer",
+        "description": "inference.infer",
+        "peekOfCode": "instrumentals = np.concatenate(instrumentals, axis=1)\nvocal_save_path = os.path.join(stage1_output_dir, f\"{genres.replace(' ', '-')}_tp{top_p}_T{temperature}_rp{repetition_penalty}_maxtk{max_new_tokens}_{random_id}_vtrack\".replace('.', '@')+'.npy')\ninst_save_path = os.path.join(stage1_output_dir, f\"{genres.replace(' ', '-')}_tp{top_p}_T{temperature}_rp{repetition_penalty}_maxtk{max_new_tokens}_{random_id}_itrack\".replace('.', '@')+'.npy')\nnp.save(vocal_save_path, vocals)\nnp.save(inst_save_path, instrumentals)\nstage1_output_set.append(vocal_save_path)\nstage1_output_set.append(inst_save_path)\n# offload model\nif not args.disable_offload_model:\n    model.cpu()",
+        "detail": "inference.infer",
+        "documentation": {}
+    },
+    {
+        "label": "vocal_save_path",
+        "kind": 5,
+        "importPath": "inference.infer",
+        "description": "inference.infer",
+        "peekOfCode": "vocal_save_path = os.path.join(stage1_output_dir, f\"{genres.replace(' ', '-')}_tp{top_p}_T{temperature}_rp{repetition_penalty}_maxtk{max_new_tokens}_{random_id}_vtrack\".replace('.', '@')+'.npy')\ninst_save_path = os.path.join(stage1_output_dir, f\"{genres.replace(' ', '-')}_tp{top_p}_T{temperature}_rp{repetition_penalty}_maxtk{max_new_tokens}_{random_id}_itrack\".replace('.', '@')+'.npy')\nnp.save(vocal_save_path, vocals)\nnp.save(inst_save_path, instrumentals)\nstage1_output_set.append(vocal_save_path)\nstage1_output_set.append(inst_save_path)\n# offload model\nif not args.disable_offload_model:\n    model.cpu()\n    del model",
+        "detail": "inference.infer",
+        "documentation": {}
+    },
+    {
+        "label": "inst_save_path",
+        "kind": 5,
+        "importPath": "inference.infer",
+        "description": "inference.infer",
+        "peekOfCode": "inst_save_path = os.path.join(stage1_output_dir, f\"{genres.replace(' ', '-')}_tp{top_p}_T{temperature}_rp{repetition_penalty}_maxtk{max_new_tokens}_{random_id}_itrack\".replace('.', '@')+'.npy')\nnp.save(vocal_save_path, vocals)\nnp.save(inst_save_path, instrumentals)\nstage1_output_set.append(vocal_save_path)\nstage1_output_set.append(inst_save_path)\n# offload model\nif not args.disable_offload_model:\n    model.cpu()\n    del model\n    torch.cuda.empty_cache()",
+        "detail": "inference.infer",
+        "documentation": {}
+    },
+    {
+        "label": "model_stage2",
+        "kind": 5,
+        "importPath": "inference.infer",
+        "description": "inference.infer",
+        "peekOfCode": "model_stage2 = AutoModelForCausalLM.from_pretrained(\n    stage2_model, \n    torch_dtype=torch.bfloat16,\n    attn_implementation=\"flash_attention_2\",\n    # device_map=\"auto\",\n    )\nmodel_stage2.to(device)\nmodel_stage2.eval()\nif torch.__version__ >= \"2.0.0\":\n    model_stage2 = torch.compile(model_stage2)",
+        "detail": "inference.infer",
+        "documentation": {}
+    },
+    {
+        "label": "stage2_result",
+        "kind": 5,
+        "importPath": "inference.infer",
+        "description": "inference.infer",
+        "peekOfCode": "stage2_result = stage2_inference(model_stage2, stage1_output_set, stage2_output_dir, batch_size=args.stage2_batch_size)\nprint(stage2_result)\nprint('Stage 2 DONE.\\n')\n# convert audio tokens to audio\ndef save_audio(wav: torch.Tensor, path, sample_rate: int, rescale: bool = False):\n    folder_path = os.path.dirname(path)\n    if not os.path.exists(folder_path):\n        os.makedirs(folder_path)\n    limit = 0.99\n    max_val = wav.abs().max()",
+        "detail": "inference.infer",
+        "documentation": {}
+    },
+    {
+        "label": "recons_output_dir",
+        "kind": 5,
+        "importPath": "inference.infer",
+        "description": "inference.infer",
+        "peekOfCode": "recons_output_dir = os.path.join(args.output_dir, \"recons\")\nrecons_mix_dir = os.path.join(recons_output_dir, 'mix')\nos.makedirs(recons_mix_dir, exist_ok=True)\ntracks = []\nfor npy in stage2_result:\n    codec_result = np.load(npy)\n    decodec_rlt=[]\n    with torch.no_grad():\n        decoded_waveform = codec_model.decode(torch.as_tensor(codec_result.astype(np.int16), dtype=torch.long).unsqueeze(0).permute(1, 0, 2).to(device))\n    decoded_waveform = decoded_waveform.cpu().squeeze(0)",
+        "detail": "inference.infer",
+        "documentation": {}
+    },
+    {
+        "label": "recons_mix_dir",
+        "kind": 5,
+        "importPath": "inference.infer",
+        "description": "inference.infer",
+        "peekOfCode": "recons_mix_dir = os.path.join(recons_output_dir, 'mix')\nos.makedirs(recons_mix_dir, exist_ok=True)\ntracks = []\nfor npy in stage2_result:\n    codec_result = np.load(npy)\n    decodec_rlt=[]\n    with torch.no_grad():\n        decoded_waveform = codec_model.decode(torch.as_tensor(codec_result.astype(np.int16), dtype=torch.long).unsqueeze(0).permute(1, 0, 2).to(device))\n    decoded_waveform = decoded_waveform.cpu().squeeze(0)\n    decodec_rlt.append(torch.as_tensor(decoded_waveform))",
+        "detail": "inference.infer",
+        "documentation": {}
+    },
+    {
+        "label": "tracks",
+        "kind": 5,
+        "importPath": "inference.infer",
+        "description": "inference.infer",
+        "peekOfCode": "tracks = []\nfor npy in stage2_result:\n    codec_result = np.load(npy)\n    decodec_rlt=[]\n    with torch.no_grad():\n        decoded_waveform = codec_model.decode(torch.as_tensor(codec_result.astype(np.int16), dtype=torch.long).unsqueeze(0).permute(1, 0, 2).to(device))\n    decoded_waveform = decoded_waveform.cpu().squeeze(0)\n    decodec_rlt.append(torch.as_tensor(decoded_waveform))\n    decodec_rlt = torch.cat(decodec_rlt, dim=-1)\n    save_path = os.path.join(recons_output_dir, os.path.splitext(os.path.basename(npy))[0] + \".mp3\")",
+        "detail": "inference.infer",
+        "documentation": {}
+    },
+    {
+        "label": "vocoder_output_dir",
+        "kind": 5,
+        "importPath": "inference.infer",
+        "description": "inference.infer",
+        "peekOfCode": "vocoder_output_dir = os.path.join(args.output_dir, 'vocoder')\nvocoder_stems_dir = os.path.join(vocoder_output_dir, 'stems')\nvocoder_mix_dir = os.path.join(vocoder_output_dir, 'mix')\nos.makedirs(vocoder_mix_dir, exist_ok=True)\nos.makedirs(vocoder_stems_dir, exist_ok=True)\nfor npy in stage2_result:\n    if '_itrack' in npy:\n        # Process instrumental\n        instrumental_output = process_audio(\n            npy,",
+        "detail": "inference.infer",
+        "documentation": {}
+    },
+    {
+        "label": "vocoder_stems_dir",
+        "kind": 5,
+        "importPath": "inference.infer",
+        "description": "inference.infer",
+        "peekOfCode": "vocoder_stems_dir = os.path.join(vocoder_output_dir, 'stems')\nvocoder_mix_dir = os.path.join(vocoder_output_dir, 'mix')\nos.makedirs(vocoder_mix_dir, exist_ok=True)\nos.makedirs(vocoder_stems_dir, exist_ok=True)\nfor npy in stage2_result:\n    if '_itrack' in npy:\n        # Process instrumental\n        instrumental_output = process_audio(\n            npy,\n            os.path.join(vocoder_stems_dir, 'itrack.mp3'),",
+        "detail": "inference.infer",
+        "documentation": {}
+    },
+    {
+        "label": "vocoder_mix_dir",
+        "kind": 5,
+        "importPath": "inference.infer",
+        "description": "inference.infer",
+        "peekOfCode": "vocoder_mix_dir = os.path.join(vocoder_output_dir, 'mix')\nos.makedirs(vocoder_mix_dir, exist_ok=True)\nos.makedirs(vocoder_stems_dir, exist_ok=True)\nfor npy in stage2_result:\n    if '_itrack' in npy:\n        # Process instrumental\n        instrumental_output = process_audio(\n            npy,\n            os.path.join(vocoder_stems_dir, 'itrack.mp3'),\n            args.rescale,",
+        "detail": "inference.infer",
+        "documentation": {}
+    },
+    {
+        "label": "AbstractTokenizer",
+        "kind": 6,
+        "importPath": "inference.mmtokenizer",
+        "description": "inference.mmtokenizer",
+        "peekOfCode": "class AbstractTokenizer(ABC):\n    \"\"\"Abstract class for tokenizer.\"\"\"\n    def __init__(self, name):\n        self.name = name\n        super().__init__()\n    @property\n    @abstractmethod\n    def vocab_size(self):\n        pass\n    @property",
+        "detail": "inference.mmtokenizer",
+        "documentation": {}
+    },
+    {
+        "label": "_SentencePieceTokenizer",
+        "kind": 6,
+        "importPath": "inference.mmtokenizer",
+        "description": "inference.mmtokenizer",
+        "peekOfCode": "class _SentencePieceTokenizer(AbstractTokenizer):\n    \"\"\"SentencePieceTokenizer-Megatron wrapper\"\"\"\n    def __init__(self, model_file, vocab_extra_ids=0):\n        name = 'SentencePieceTokenizer'\n        super().__init__(name)\n        import sentencepiece\n        self.tokenizer = sentencepiece.SentencePieceProcessor(model_file=model_file)\n        self._initalize(vocab_extra_ids)\n    def _populate_vocab(self):\n        self._vocab = {}",
+        "detail": "inference.mmtokenizer",
+        "documentation": {}
+    },
+    {
+        "label": "_MMSentencePieceTokenizer",
+        "kind": 6,
+        "importPath": "inference.mmtokenizer",
+        "description": "inference.mmtokenizer",
+        "peekOfCode": "class _MMSentencePieceTokenizer(_SentencePieceTokenizer):\n    \"\"\"SentencePieceTokenizer-Megatron wrapper\"\"\"\n    def __init__(self, model_file, vocab_extra_ids=0):\n        super().__init__(model_file, vocab_extra_ids)\n    def _initalize(self, vocab_extra_ids):\n        self._populate_vocab()\n        self._special_tokens = {}\n        self._inv_special_tokens = {}\n        self._t5_tokens = []\n        def _add_special_token(t):",
+        "detail": "inference.mmtokenizer",
+        "documentation": {}
+    }
+]
